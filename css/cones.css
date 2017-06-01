@@ -1,0 +1,14 @@
+.cones-inner {
+    transform-style: preserve-3d;
+    top: 40%;
+    left: 40%;
+    /*transform: rotateX(-33deg) rotateY(45deg);*/
+}
+
+.cones-inner li {
+    height: 50px;
+    width: 50px;
+    border-bottom: 25px solid rgba(200, 200, 200, .7);
+    border-left: transparent;
+
+}

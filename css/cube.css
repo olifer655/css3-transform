@@ -3,7 +3,7 @@
     position: absolute;
     top: 40%;
     left: 20%;
-    transform: rotateX(-33.5deg) rotateY(45deg);
+    animation: 5s cube infinite alternate;
 }
 
 .cube-inner li {
@@ -25,7 +25,6 @@
     transform: translateZ(-25px);
 }
 
-
 .cube-inner .back {
     transform: translateZ(25px);
 }
@@ -36,4 +35,22 @@
 
 .cube-inner .left {
     transform: rotateY(90deg) translateZ(-25px);
+}
+
+@keyframes cube {
+    0% {
+        transform: rotateX(-33.5deg) rotateY(15deg);
+    }
+    25% {
+        transform: rotateX(-33.5deg) rotateY(60deg);
+    }
+    50% {
+        transform: rotateX(-33.5deg) rotateY(105deg);
+    }
+    75% {
+        transform: rotateX(-33.5deg) rotateY(150deg);
+    }
+    100% {
+        transform: rotateX(-33.5deg) rotateY(195deg) rotateZ(15deg);
+    }
 }
