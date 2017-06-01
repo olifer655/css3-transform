@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul, li  {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+
+.demo-cube {
+    background-color: #efefef;
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    zoom: 2;
+}
